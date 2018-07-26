@@ -72,7 +72,7 @@ class ViewController: UIViewController {
                 result = ("屬於肥胖")
             }
             outputTextView.text = ("基礎代謝率為:\(Int(bmr))\n每日總消耗熱量(TDEE)為:\(Int(total))\nBMI值為\(bmi) 屬於:\(result)")
-            
+            view.endEditing(true)
         }
     }
 }
